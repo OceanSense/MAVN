@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ea97cba0-fa25-461f-8745-320853b1a47e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../CollaVN/arguments.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CollaVN/config/CommonGoal_two_locobot.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CollaVN/env/Mabase_env.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CollaVN/env/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CollaVN/env/base_env.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CollaVN/env/make_igibson_env.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CollaVN/env/paralle_env.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CollaVN/env/parallel_utils/profiling_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CollaVN/env/parallel_utils/profiling_wrapper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CollaVN/env/utils/depth_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CollaVN/env/utils/fmm_planner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CollaVN/env/utils/map_builder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CollaVN/env/utils/pose.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CollaVN/env/utils/rotation_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CollaVN/env/utils/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CollaVN/example/Env_AdHoc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CollaVN/example/Env_CommonGoal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CollaVN/example/Env_SpecificGoal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CollaVN/example/randomEnv_CommonGoal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CollaVN/example/randomEnv_SpecificGoal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CollaVN/iGibson/gibson2/core/render/mesh_renderer/Cube2Equirec_Utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CollaVN/iGibson/gibson2/core/render/mesh_renderer/mesh_renderer_cpu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CollaVN/iGibson/gibson2/core/simulator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CollaVN/iGibson/gibson2/utils/assets_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CollaVN/randomEnv_CommonGoal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CollaVN/scripts/random_commongoal.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/3D_detection/mmdetection3d/configs/_base_/datasets/sunrgbd-3d-10class_ori.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/3D_detection/mmdetection3d/configs/votenet/ray18_votenet_16x8_sunrgbd-3d-10class.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/3D_detection/mmdetection3d/configs/votenet/ray38_votenet_16x8_sunrgbd-3d-10class.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/3D_detection/mmdetection3d/configs/votenet/ray66_votenet_16x8_sunrgbd-3d-10class.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/3D_detection/mmdetection3d/configs/votenet/ray6_votenet_16x8_sunrgbd-3d-10class.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/3D_detection/mmdetection3d/mmdet3d/core/bbox/coders/ray_partial_bin_based_bbox_coder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/3D_detection/mmdetection3d/mmdet3d/datasets/custom_utils/generate_raypoints_sunrgbd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/3D_detection/mmdetection3d/mmdet3d/datasets/custom_utils/ray_anchor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/3D_detection/mmdetection3d/mmdet3d/models/dense_heads/vote_head.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/3D_detection/mmdetection3d/mmdet3d/models/dense_heads/vote_head_0803.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/3D_detection/mmdetection3d/mmdet3d/models/dense_heads/vote_head_gt_feature.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/3D_detection/mmdetection3d/mmdet3d/models/dense_heads/vote_head_ori.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/3D_detection/mmdetection3d/mmdet3d/models/detectors/votenet_0731.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/3D_detection/mmdetection3d/mmdet3d/models/detectors/votenet_ori.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/ICCV2021/code/CollaVN/.idea/CollaVN.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/ICCV2021/code/CollaVN/algo/ppo_0601.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/ICCV2021/code/CollaVN/config/easy_four_ma_locobot_imggoal_nav.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/ICCV2021/code/CollaVN/config/easy_three_ma_locobot_imggoal_nav.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/ICCV2021/code/CollaVN/config/easy_two_ma_locobot_imggoal_nav.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/ICCV2021/code/CollaVN/config/hard_four_ma_locobot_imggoal_nav.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/ICCV2021/code/CollaVN/config/hard_three_ma_locobot_imggoal_nav.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/ICCV2021/code/CollaVN/config/hard_two_ma_locobot_imggoal_nav.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/ICCV2021/code/CollaVN/config/mid_four_ma_locobot_imggoal_nav.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/ICCV2021/code/CollaVN/config/mid_three_ma_locobot_imggoal_nav.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/ICCV2021/code/CollaVN/config/mid_two_ma_locobot_imggoal_nav.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/ICCV2021/code/CollaVN/config/nosucc_easy_two_ma_locobot_imggoal_nav.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/ICCV2021/code/CollaVN/config/nosucccol_easy_two_ma_locobot_imggoal_nav.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/ICCV2021/code/CollaVN/config/overall_two_ma_locobot_imggoal_nav.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/ICCV2021/code/CollaVN/env/make_igibson_env_0601.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/ICCV2021/code/CollaVN/eval.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/ICCV2021/code/CollaVN/main_eval.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/ICCV2021/code/CollaVN/main_eval_overall.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/ICCV2021/code/CollaVN/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/ICCV2021/code/CollaVN/test_speed.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/ICCV2021/code/CollaVN/utils/storage_0601.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/ICCV2021/code/Com_nomem/.idea/Com_nomem.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/ICCV2021/code/Com_nomem/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/ICCV2021/code/Com_nomem/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/ICCV2021/code/Com_nomem/config/easy_two_ma_locobot_imggoal_nav.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/ICCV2021/code/Com_nomem/main_eval.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/ICCV2021/code/Specific_CollaVN/.idea/Specific_CollaVN.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/ICCV2021/code/Specific_Com_nomem/.idea/Specific_Com_nomem.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/ICCV2021/code/gibson2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/ICCV2021/code/gibson2/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/ICCV2021/code/gibson2/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/ICCV2021/code/gibson2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/ICCV2021/code/gibson2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/ICCV2021/code/gibson2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/ICCV2021/code/gibson2/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/ICCV2021/code/gibson2/core/render/mesh_renderer/mesh_renderer_cpu_0601.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/ICCV2021/code/gibson2/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/ICCV2021/code/nocom/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/ICCV2021/code/nocom/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/ICCV2021/code/nocom/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/ICCV2021/code/nocom/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/ICCV2021/code/nocom/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/ICCV2021/code/nocom/.idea/nocom.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/ICCV2021/code/nocom/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/ICCV2021/code/nocom/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/ICCV2021/code/nocom/config/easy_two_ma_locobot_imggoal_nav_002.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/ICCV2021/code/nocom/config/easy_two_ma_locobot_imggoal_nav_005.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/ICCV2021/code/nocom/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/ICCV2021/code/nocom/main_eval.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/lecture/RL/MARL_hw2_汪海洋_2001111643/PPO-Mujoco/.idea/PPO-Mujoco.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/lecture/algorithm/Genealogical_tree/.idea/Genealogical_tree.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/lecture/algorithm/Genealogical_tree/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/lecture/algorithm/Genealogical_tree/.idea/dictionaries/haiyangwang.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/lecture/algorithm/Genealogical_tree/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/lecture/algorithm/OJ/.idea/OJ.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/lecture/algorithm/OJ/20200101.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/lecture/algorithm/OJ/20200102.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/lecture/algorithm/OJ/20200103.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/lecture/algorithm/OJ/20200104.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/lecture/algorithm/OJ/20200105.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/lecture/algorithm/OJ/20200106.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/lecture/algorithm/huffman/.idea/huffman.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/lecture/parallel compute/2001111643_第一次作业/.idea/par2021_hw1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PKU/lecture/parallel compute/par2021_hw1/.idea/par2021_hw1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ZY/GraduationDesign/code/.idea/code.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ZY/GraduationDesign/generate_data/diamond_structure/.idea/diamond_structure.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ZY/GraduationDesign/generate_data/gtk_structure_VCoB3_A/.idea/gtk_structure_VCoB3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ZY/GraduationDesign/select_cgcnn/.idea/select_cgcnn.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ZY/GraduationDesign/select_cgcnn/sort_hard_ac_e.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Computer Class/algorithm_theory/.idea/algorithm_theory.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/.idea/Sensetime.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/20200901/swav/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/20200901/swav/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/20200901/swav/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/20200901/swav/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/20200901/swav/.idea/swav.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/20200901/swav/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/20200901/swav/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/20200901/swav/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/20200901/swav/scripts/crossview_full_no_multicrop_swav_200ep_bs256_pretrain.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/20200901/swav/scripts/crossview_full_swav_200ep_bs256_pretrain.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/20200901/swav/scripts/full_no_multicrop_swav_200ep_bs256_pretrain.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/20200901/swav/scripts/full_swav_200ep_bs256_pretrain.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/20200901/swav/scripts/full_swav_400ep_bs256_pretrain.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/20200901/swav/scripts/full_swav_800ep_bs256_pretrain.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/20200901/swav/scripts/linear_eval.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/20200901/swav/scripts/multinode_full_no_multicrop_swav_200ep_bs256_pretrain.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/20200901/swav/scripts/swav_200ep_bs256_pretrain_fp32.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/20200901/swav/scripts/test_bulr_full_swav_200ep_bs256_pretrain.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/20200901/swav_dali/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/20200901/swav_dali/.idea/swav.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/20200901/swav_dali/main_swav_dali.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/20200901/swav_dali/scripts/dali_swav_200ep_bs256_pretrain.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/20200901/swav_dali/src/dali_dataloader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/20200901/swav_dali/src/multicropdataset_dali.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/MultiAgent/.idea/MultiAgent.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/MultiAgent_centralized/.idea/MultiAgent_centralized.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/MultiAgent_centralized_rewardv2/.idea/MultiAgent_centralized_rewardv2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/MultiAgent_de_metricmap/.idea/MultiAgent_de_metricmap.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/MultiAgent_de_metricmap/config/easy_ma_locobot_imggoal_nav.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/MultiAgent_de_metricmap/config/hard_ma_locobot_imggoal_nav.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/MultiAgent_de_metricmap/config/mid_ma_locobot_imggoal_nav.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/MultiAgent_de_metricmap/eval.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/ReImple/Haiyang_SOLOv2/haiyang_solov2/.idea/pytorch-object-detection.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/ReImple/SOLOv2/.idea/SOLOv2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/ReImple/SOLOv2/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/ReImple/SOLOv2/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/ReImple/pod_solov2/.idea/pod_solov2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/ReImple/pytorch-object-detection/.idea/pytorch-object-detection.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/ReImple/pytorch-object-detection/configs/coco/solov2-R101-FPN.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/ReImple/pytorch-object-detection/configs/coco/solov2_realtime-R50-FPN.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/ReImple/pytorch-object-detection/pod/models/heads/solov2_head/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/ReImple/pytorch-object-detection/pod/models/heads/solov2_head/solov2_head.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/ReImple/pytorch-object-detection/solo.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/SingleAgent_mem/.idea/SingleAgent_mem.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/SwAV/.idea/SwAV.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/SwAV/swav-cluster/.idea/swav-cluster.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/SwAV/swav-cluster/scripts/swav_200ep_bs256_1_5_imagenet_pretrain.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/cuML/.idea/cuML.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/cuML/combine_two_knn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/cuML/distance_analysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/cuML/knn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/cuML/knn_cosine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/cuML/knn_cosine_fisher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/cuML/knn_cosine_fordict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/cuML/knn_cosine_formoco_multilevel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/cuML/knn_cosine_forswav_multilevel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/cuML/knn_cosine_forswav_multilevel_sklearn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/cuML/knn_cosine_gist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/cuML/knn_cosine_select_1_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/cuML/knn_expansion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/cuML/knn_expansion_v2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/cuML/knnfilter_bydistance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/cuML/static_distribution.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/cuML/test_mc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/dali/.idea/dali.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/dali/aug_op.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/dali/datasource.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/mixup_viz/.idea/mixup_viz.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/mmdet_ssl/.idea/mmdet_ssl.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/mmdet_ssl/OpenSelfSup" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/mmdet_ssl/generate_1_3_imgnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/mmdet_ssl/generate_1_5_imgnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/mmdet_ssl/test_io.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/mnt/lustre/wanghaiyang/image_manual_feature/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/mnt/lustre/wanghaiyang/image_manual_feature/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/mnt/lustre/wanghaiyang/image_manual_feature/.idea/image_manual_feature.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/mnt/lustre/wanghaiyang/image_manual_feature/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/mnt/lustre/wanghaiyang/image_manual_feature/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/mnt/lustre/wanghaiyang/image_manual_feature/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/mnt/lustre/wanghaiyang/image_manual_feature/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/mnt/lustre/wanghaiyang/image_manual_feature/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/mnt/lustre/wanghaiyang/image_manual_feature/extract_LBP.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/mnt/lustre/wanghaiyang/image_manual_feature/extract_color_dist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/mnt/lustre/wanghaiyang/image_manual_feature/extract_fisher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/mnt/lustre/wanghaiyang/image_manual_feature/extract_hog.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/mnt/lustre/wanghaiyang/image_manual_feature/extract_hog_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/mnt/lustre/wanghaiyang/image_manual_feature/extract_sift.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/moco/.idea/moco.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/moco/linear_forswav/cross_swav_2x224_256_200.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/moco/resnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/.idea/prototype.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/1_3_imgnet_baseline_mocov2_resnet50_batch256_epoch200_cosinelr_lr0.03_dim128/moco.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/1_3_imgnet_baseline_mocov2_resnet50_batch256_epoch200_cosinelr_lr0.03_dim128/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/1_3_imgnet_crossviewimgnetlabel_mocov2_resnet50_batch256_epoch200_cosinelr_lr0.03_dim128/moco.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/1_3_imgnet_crossviewimgnetlabel_mocov2_resnet50_batch256_epoch200_cosinelr_lr0.03_dim128/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/1_3_imgnet_mixupcrossviewimgnetlabel_mocov2_resnet50_batch256_epoch200_cosinelr_lr0.03_dim128/moco.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/1_3_imgnet_mixupcrossviewimgnetlabel_mocov2_resnet50_batch256_epoch200_cosinelr_lr0.03_dim128/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/1_3_imgnet_swav200ep256bs_crossview_mocov2_resnet50_batch256_epoch200_cosinelr_lr0.03_dim128/moco.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/1_3_imgnet_swav200ep256bs_crossview_mocov2_resnet50_batch256_epoch200_cosinelr_lr0.03_dim128/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/1_3_imgnet_swav200ep256bsfulldata_crossview_mocov2_resnet50_batch256_epoch200_cosinelr_lr0.03_dim128/moco.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/1_3_imgnet_swav200ep256bsfulldata_crossview_mocov2_resnet50_batch256_epoch200_cosinelr_lr0.03_dim128/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/1_3_imgnet_thirdview_knn_crossviewimgnetlabel_mocov2_resnet50_batch256_epoch200_cosinelr_lr0.03_dim128/moco.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/1_3_imgnet_thirdview_knn_crossviewimgnetlabel_mocov2_resnet50_batch256_epoch200_cosinelr_lr0.03_dim128/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/1_3_imgnet_thirdview_mixup0.3_crossviewimgnetlabel_mocov2_resnet50_batch256_epoch200_cosinelr_lr0.03_dim128/moco.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/1_3_imgnet_thirdview_mixup0.3_crossviewimgnetlabel_mocov2_resnet50_batch256_epoch200_cosinelr_lr0.03_dim128/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/1_3_imgnet_thirdview_mixup_alphabound_0.3_crossviewimgnetlabel_mocov2_resnet50_batch256_epoch200_cosinelr_lr0.03_dim128/moco.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/1_3_imgnet_thirdview_mixup_alphabound_0.3_crossviewimgnetlabel_mocov2_resnet50_batch256_epoch200_cosinelr_lr0.03_dim128/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/1_3_imgnet_thirdview_mixup_alphabound_0.4_crossviewimgnetlabel_mocov2_resnet50_batch256_epoch200_cosinelr_lr0.03_dim128/moco.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/1_3_imgnet_thirdview_mixup_alphabound_0.4_crossviewimgnetlabel_mocov2_resnet50_batch256_epoch200_cosinelr_lr0.03_dim128/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/1_3_imgnet_thirdview_mixupcrossviewimgnetlabel_mocov2_resnet50_batch256_epoch200_cosinelr_lr0.03_dim128/moco.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/1_3_imgnet_thirdview_mixupcrossviewimgnetlabel_mocov2_resnet50_batch256_epoch200_cosinelr_lr0.03_dim128/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/1_3_imgnet_thirdview_mocov2datassl_selfandknn20_mocov2_resnet50_batch256_epoch200_cosinelr_lr0.03_dim128/moco.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/1_3_imgnet_thirdview_mocov2datassl_selfandknn20_mocov2_resnet50_batch256_epoch200_cosinelr_lr0.03_dim128/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/1_3_imgnet_thirdview_swav200ep256bs_knn_crossview_mocov2_resnet50_batch256_epoch200_cosinelr_lr0.03_dim128/moco.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/1_3_imgnet_thirdview_swav200ep256bs_knn_crossview_mocov2_resnet50_batch256_epoch200_cosinelr_lr0.03_dim128/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/1_3_imgnet_thirdview_swavfulldatassl_knn100_crossviewimgnetlabel_mocov2_resnet50_batch256_epoch200_cosinelr_lr0.03_dim128/moco.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/1_3_imgnet_thirdview_swavfulldatassl_knn100_crossviewimgnetlabel_mocov2_resnet50_batch256_epoch200_cosinelr_lr0.03_dim128/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/1_3_imgnet_thirdview_swavfulldatassl_knn100_replacerandom_crossviewimgnetlabel_mocov2_resnet50_batch256_epoch200_cosinelr_lr0.03_dim128/moco.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/1_3_imgnet_thirdview_swavfulldatassl_knn100_replacerandom_crossviewimgnetlabel_mocov2_resnet50_batch256_epoch200_cosinelr_lr0.03_dim128/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/1_3_imgnet_thirdview_swavfulldatassl_knn20_mocov2_resnet50_batch256_epoch200_cosinelr_lr0.03_dim128/moco.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/1_3_imgnet_thirdview_swavfulldatassl_knn20_mocov2_resnet50_batch256_epoch200_cosinelr_lr0.03_dim128/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/1_3_imgnet_thirdview_swavfulldatassl_knn400_crossviewimgnetlabel_mocov2_resnet50_batch256_epoch200_cosinelr_lr0.03_dim128/moco.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/1_3_imgnet_thirdview_swavfulldatassl_knn400_crossviewimgnetlabel_mocov2_resnet50_batch256_epoch200_cosinelr_lr0.03_dim128/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/1_3_imgnet_thirdview_swavfulldatassl_knn40_mocov2_resnet50_batch256_epoch200_cosinelr_lr0.03_dim128/moco.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/1_3_imgnet_thirdview_swavfulldatassl_knn40_mocov2_resnet50_batch256_epoch200_cosinelr_lr0.03_dim128/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/1_3_imgnet_thirdview_swavfulldatassl_selfandknn20_mocov2_resnet50_batch256_epoch200_cosinelr_lr0.03_dim128/moco.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/1_3_imgnet_thirdview_swavfulldatassl_selfandknn20_mocov2_resnet50_batch256_epoch200_cosinelr_lr0.03_dim128/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/1_3_imgnet_thirdview_swavfulldatassl_selfmixupknn20_alpha0.4_mixup0.2_mocov2_resnet50_batch256_epoch200_cosinelr_lr0.03_dim128/moco.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/1_3_imgnet_thirdview_swavfulldatassl_selfmixupknn20_alpha0.4_mixup0.2_mocov2_resnet50_batch256_epoch200_cosinelr_lr0.03_dim128/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/full_imgnet_thirdview_mocov2_top50thres0.12_fulldatassl_selfandknn20_mocov2_resnet50_batch256_epoch200_cosinelr_lr0.03_dim128/moco.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/full_imgnet_thirdview_mocov2_top50thres0.12_fulldatassl_selfandknn20_mocov2_resnet50_batch256_epoch200_cosinelr_lr0.03_dim128/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/full_imgnet_thirdview_mocov2fulldatassl_self0.7andknn20_mocov2_resnet50_batch256_epoch200_cosinelr_lr0.03_dim128/moco.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/full_imgnet_thirdview_mocov2fulldatassl_self0.7andknn20_mocov2_resnet50_batch256_epoch200_cosinelr_lr0.03_dim128/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/full_imgnet_thirdview_mocov2fulldatassl_selfandknn20_mocov2_resnet50_batch256_epoch200_cosinelr_lr0.03_dim128/moco.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/full_imgnet_thirdview_mocov2fulldatassl_selfandknn20_mocov2_resnet50_batch256_epoch200_cosinelr_lr0.03_dim128/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/full_imgnet_thirdview_swavfulldatassl_selfandknn20_mocov2_resnet50_batch256_epoch200_cosinelr_lr0.03_dim128/moco.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/full_imgnet_thirdview_swavfulldatassl_selfandknn20_mocov2_resnet50_batch256_epoch200_cosinelr_lr0.03_dim128/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/linear_1_3_imgnet_baseline_finetune_mocov2_resnet50_batch256_epoch100_steplr_lr30_nowd/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/linear_1_3_imgnet_baseline_finetune_mocov2_resnet50_batch256_epoch100_steplr_lr30_nowd/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/linear_1_3_imgnet_crossviewimgnetlabel_finetune_mocov2_resnet50_batch256_epoch100_steplr_lr30_nowd/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/linear_1_3_imgnet_crossviewimgnetlabel_finetune_mocov2_resnet50_batch256_epoch100_steplr_lr30_nowd/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/linear_1_3_imgnet_mixupcrossviewimgnetlabel_finetune_mocov2_resnet50_batch256_epoch100_steplr_lr30_nowd/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/linear_1_3_imgnet_mixupcrossviewimgnetlabel_finetune_mocov2_resnet50_batch256_epoch100_steplr_lr30_nowd/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/linear_1_3_imgnet_swavfulldatassl_crossview_finetune_mocov2_resnet50_batch256_epoch100_steplr_lr30_nowd/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/linear_1_3_imgnet_swavfulldatassl_crossview_finetune_mocov2_resnet50_batch256_epoch100_steplr_lr30_nowd/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/linear_1_3_imgnet_swavfulldatassl_knn100_crossview_finetune_mocov2_resnet50_batch256_epoch100_steplr_lr30_nowd/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/linear_1_3_imgnet_swavfulldatassl_knn100_crossview_finetune_mocov2_resnet50_batch256_epoch100_steplr_lr30_nowd/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/linear_1_3_imgnet_thirdview_mixup_0.3_crossviewimgnetlabel_finetune_mocov2_resnet50_batch256_epoch100_steplr_lr30_nowd/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/linear_1_3_imgnet_thirdview_mixup_0.3_crossviewimgnetlabel_finetune_mocov2_resnet50_batch256_epoch100_steplr_lr30_nowd/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/linear_1_3_imgnet_thirdview_mixup_alpha0.3_crossviewimgnetlabel_finetune_mocov2_resnet50_batch256_epoch100_steplr_lr30_nowd/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/linear_1_3_imgnet_thirdview_mixup_alpha0.3_crossviewimgnetlabel_finetune_mocov2_resnet50_batch256_epoch100_steplr_lr30_nowd/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/linear_1_3_imgnet_thirdview_mixupcrossviewimgnetlabel_finetune_mocov2_resnet50_batch256_epoch100_steplr_lr30_nowd/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/linear_1_3_imgnet_thirdview_mixupcrossviewimgnetlabel_finetune_mocov2_resnet50_batch256_epoch100_steplr_lr30_nowd/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/linear_1_3_imgnet_thirdview_swavfulldatassl_knn100_replacerandom_finetune_mocov2_resnet50_batch256_epoch100_steplr_lr30_nowd/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/linear_1_3_imgnet_thirdview_swavfulldatassl_knn100_replacerandom_finetune_mocov2_resnet50_batch256_epoch100_steplr_lr30_nowd/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/linear_1_3_imgnet_thirdview_swavfulldatassl_knn20_replacerandom_finetune_mocov2_resnet50_batch256_epoch100_steplr_lr30_nowd/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/linear_1_3_imgnet_thirdview_swavfulldatassl_knn20_replacerandom_finetune_mocov2_resnet50_batch256_epoch100_steplr_lr30_nowd/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/linear_1_3_imgnet_thirdview_swavfulldatassl_knn40_replacerandom_finetune_mocov2_resnet50_batch256_epoch100_steplr_lr30_nowd/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/linear_1_3_imgnet_thirdview_swavfulldatassl_knn40_replacerandom_finetune_mocov2_resnet50_batch256_epoch100_steplr_lr30_nowd/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/linear_1_3_imgnet_thirdview_swavfulldatassl_selfandknn20_replacerandom_finetune_mocov2_resnet50_batch256_epoch100_steplr_lr30_nowd/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/linear_1_3_imgnet_thirdview_swavfulldatassl_selfandknn20_replacerandom_finetune_mocov2_resnet50_batch256_epoch100_steplr_lr30_nowd/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/linear_1_3_imgnet_thirdview_swavfulldatassl_selfmixupandknn20_finetune_mocov2_resnet50_batch256_epoch100_steplr_lr30_nowd/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/linear_1_3_imgnet_thirdview_swavfulldatassl_selfmixupandknn20_finetune_mocov2_resnet50_batch256_epoch100_steplr_lr30_nowd/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/linear_fulldata_baseline_finetune_mocov2_resnet50_batch256_epoch100_steplr_lr30_nowd/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/linear_fulldata_baseline_finetune_mocov2_resnet50_batch256_epoch100_steplr_lr30_nowd/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/linear_fulldata_self0.5andknn20_finetune_mocov2_resnet50_batch256_epoch100_steplr_lr30_nowd/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/linear_fulldata_self0.5andknn20_finetune_mocov2_resnet50_batch256_epoch100_steplr_lr30_nowd/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/linear_fulldatamocov2ssl_self0.5andknn20_finetune_mocov2_resnet50_batch256_epoch100_steplr_lr30_nowd/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/linear_fulldatamocov2ssl_self0.5andknn20_finetune_mocov2_resnet50_batch256_epoch100_steplr_lr30_nowd/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/linear_fulldatamocov2ssl_self0.5knntop50thres0.065_finetune_mocov2_resnet50_batch256_epoch100_steplr_lr30_nowd/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/linear_fulldatamocov2ssl_self0.5knntop50thres0.065_finetune_mocov2_resnet50_batch256_epoch100_steplr_lr30_nowd/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/linear_fulldatamocov2ssl_self0.5knntop50thres0.085_finetune_mocov2_resnet50_batch256_epoch100_steplr_lr30_nowd/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/linear_fulldatamocov2ssl_self0.5knntop50thres0.085_finetune_mocov2_resnet50_batch256_epoch100_steplr_lr30_nowd/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/linear_fulldatamocov2ssl_self0.5knntop50thres0.09_finetune_mocov2_resnet50_batch256_epoch100_steplr_lr30_nowd/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/model_zoo_exp/unsupervised_moco_experiments/linear_fulldatamocov2ssl_self0.5knntop50thres0.09_finetune_mocov2_resnet50_batch256_epoch100_steplr_lr30_nowd/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/prototype/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/prototype/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/prototype/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/prototype/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/prototype/.idea/prototype.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/Sensetime/prototype/prototype/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/01-backpack/.idea/01-backpack.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/1003/.idea/1003.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/1005/.idea/1005.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/1006/.idea/1006.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/1007/.idea/1007.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/1008/.idea/1008.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/1009/.idea/1009.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/1010/.idea/1010.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/1012/.idea/1012.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/1013/.idea/1013.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/1015/.idea/1015.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/1018/.idea/1018.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/1019/.idea/1019.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/1020/.idea/1020.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/1023/.idea/1023.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/1029/.idea/1029.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/1030/.idea/1030.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/1032/.idea/1032.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/1038/.idea/1038.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/1039/.idea/1039.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/1044/.idea/1044.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/1045/.idea/1045.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/1047/.idea/1047.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/1050/.idea/1050.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/1052/.idea/1052.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/1054/.idea/1054.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/1055/.idea/1055.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/1059/.idea/1059.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/1060/.idea/1060.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/1062/.idea/1062.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/1063/.idea/1063.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/1328_radar_installation/.idea/1328_radar_installation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/2013121/.idea/2013121.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/2013122/.idea/2013122.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/2013123/.idea/2013123.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/201403-2/.idea/201403-2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/201403-4/.idea/201403-4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/2014031/.idea/2014031.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/2014033/.idea/2014033.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/201403_4_my_v/.idea/201403_4_my_v.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/201409-3/.idea/201409-3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/201409-4/.idea/201409-4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/201412-2/.idea/201412-2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/201412-3/.idea/201412-3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/201412-4/.idea/201412-4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/2015121/.idea/2015121.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/201709-1/.idea/201709-1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/201712-2/.idea/201712-2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/201803-2/.idea/201803-2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/201812-2/.idea/201812-2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/2018121/.idea/2018121.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/2018_datacenter_1/.idea/2018_datacenter_1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/2018_datacenter_2/.idea/2018_datacenter_2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/2018_datacenter_3/.idea/2018_datacenter_3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/2018_datacenter_7/.idea/2018_datacenter_7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/3274/.idea/3274.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/4151_filmfest/.idea/4151_filmfest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/BST/.idea/BST.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/DFS_A1103/.idea/DFS_A1103.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/DiDijkstra/.idea/DiDijkstra.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/Floyd/.idea/Floyd.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/PAT1000/.idea/PAT1000.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/PAT1002/.idea/PAT1002.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/POJ1002/.idea/POJ1002.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/POJ1003/.idea/POJ1003.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/POJ1004/.idea/POJ1004.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/POJ1007/.idea/POJ1007.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/POJ1035/.idea/POJ035.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/POJ1068/.idea/POJ1068.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/POJ1084/.idea/POJ1084.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/POJ1094_others/.idea/POJ1094_others.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/POJ1125/.idea/POJ1125.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/POJ1258/.idea/POJ1258.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/POJ1426/.idea/POJ1426.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/POJ1458/.idea/POJ1458.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/POJ1502/.idea/POJ1502.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/POJ1753/.idea/POJ1753.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/POJ1789/.idea/POJ1789.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/POJ1804/.idea/POJ1804.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/POJ1840/.idea/POJ1840.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/POJ1860/.idea/POJ1860.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/POJ1887/.idea/POJ1887.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/POJ1904/.idea/POJ1904.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/POJ1936/.idea/POJ1936.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/POJ1979/.idea/POJ1979.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/POJ2002/.idea/POJ2002.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/POJ2151/.idea/POJ2151.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/POJ2151_test/.idea/POJ2151_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/POJ2253/.idea/POJ2253.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/POJ2299/.idea/POJ2299.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/POJ2362/.idea/POJ2362.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/POJ2386/.idea/POJ2386.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/POJ2388/.idea/POJ2388.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/POJ2485/.idea/POJ2485.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/POJ2488/.idea/POJ2488.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/POJ2503/.idea/POJ2503.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/POJ2533/.idea/POJ2533.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/POJ3026/.idea/POJ2458.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/POJ3080/.idea/POJ3080.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/POJ3083/.idea/POJ3083.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/POJ3087/.idea/POJ3087.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/POJ3126/.idea/POJ3126.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/POJ3253/.idea/POJ3253.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/POJ3259/.idea/POJ3259.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/POJ3278/.idea/POJ3728.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/POJ3295/.idea/POJ3295.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/POJ3349/.idea/POJ3349.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/POJ3414/.idea/POJ3414.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/POJ3974/.idea/POJ3974.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/POJ_2109/.idea/POJ_2109.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/POJ_2376_interval_covered/.idea/POJ_2376_interval_covered.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/POJ_2965/.idea/POJ_2965.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/Poj_2586/.idea/Poj_2586.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/To_fill_or_not_to_fill/.idea/To_fill_or_not_to_fill.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/bellman-ford/.idea/bellman-ford.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/big_math_multi/.idea/big_math_multi.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/big_num_mutiple/.idea/big_num_mutiple.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/binary_tree_static/.idea/binary_tree_static.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/clean_shifts/.idea/clean_shifts.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/conversion_of_number_system/.idea/conversion_of_number_system.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/create_heap/.idea/create_heap.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/create_minimal_number/.idea/create_minimal_number.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/eight_queen/.idea/eight_queen.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/find_test_number/.idea/find_test_number.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/greatest_commen_divisor/.idea/greatest_commen_divisor.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/integer_factorization/.idea/integer_factorization.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/longest_continues_add/.idea/longest_continues_add.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/merge_sort/.idea/merge_sort.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/moralty_ability_theroy/.idea/moralty_ability_theroy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/number_black_hole/.idea/number_black_hole.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/old_keyboard/.idea/old_keyboard.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/patrank/.idea/test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/pop_sequence/.idea/pop_sequence.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/prime_tabel/.idea/prime_tabel.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/quicksort/.idea/quicksort.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/test/.idea/test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/test2/.idea/test2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/train/.idea/train.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/untitled/.idea/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/大数乘法/.idea/大数乘法.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/拓扑排序/.idea/拓扑排序.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../computer/practice code/最大连续子序列和/.idea/最大连续子序列和.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/CommonGoal_four_locobot.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/CommonGoal_three_locobot.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/SpecificGoal_four_locobot.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/SpecificGoal_three_locobot.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/SpecificGoal_two_locobot.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ESE-Seg/demo_yolo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ESE-Seg/sbd_eval_che_8.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ESE-Seg/sbd_train_che_8.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo_yolo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gluon-cv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sbd_eval_che_8.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sbd_train_che_8.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1wnWOMPxn7zMI7IXCPQfxyiirmD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/config" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/config" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ea97cba0-fa25-461f-8745-320853b1a47e" name="Default Changelist" comment="" />
+      <created>1629094800070</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629094800070</updated>
+      <workItem from="1629094801279" duration="791000" />
+      <workItem from="1629099388632" duration="13308000" />
+      <workItem from="1629177866063" duration="11663000" />
+      <workItem from="1629193588876" duration="440000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/setup.py</url>
+          <line>115</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
