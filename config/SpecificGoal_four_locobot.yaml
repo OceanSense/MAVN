@@ -17,7 +17,7 @@ angular_velocity: 1.5707963267948966
 # task, observation and action
 task: imagegoal #
 task_type: specific
-reset_file_root: ../dataset/train/specificgoal/
+reset_file_root: ../dataset/specificgoal/train/
 # target_dist_min: [1.5, 3., 5.]
 # target_dist_max: [3., 5., 10.]
 initial_pos_z_offset: 0.1
