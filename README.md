@@ -40,7 +40,7 @@ To make the comparison fair, we pre-generated some data points, which we used in
 
 ```shell
 cd MAVN
-wget https://drive.google.com/drive/folders/1fBDSfS9Mk0sBuPJyLNO-arc12aLqR6pT?usp=sharing
+wget https://drive.google.com/drive/folders/1xYzl5zBYOfTE2ouSIKgp6ZgrQ7lZEe7X?usp=sharing
 ```
 
 ## Run Demo
